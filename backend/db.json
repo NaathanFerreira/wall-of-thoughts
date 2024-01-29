@@ -2,9 +2,9 @@
   "thoughts": [
     {
       "id": 1,
-      "content": "Que bom que vc veio",
-      "author": "Nay",
-      "model": "model1"
+      "content": "Editando",
+      "author": "Nathan",
+      "model": "model2"
     },
     {
       "id": 2,
@@ -17,6 +17,12 @@
       "content": "Angular é o melhor'",
       "author": "Dev Alura",
       "model": "model3"
+    },
+    {
+      "content": "Novo pensamento",
+      "author": "Nath",
+      "model": "model1",
+      "id": 4
     }
   ]
 }
