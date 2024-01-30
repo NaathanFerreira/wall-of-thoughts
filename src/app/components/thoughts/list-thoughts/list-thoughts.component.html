@@ -9,6 +9,9 @@
     </div>
   </div>
 </section>
+<app-load-more [hasMoreThoughts]="hasMoreThoughts" (click)="loadMoreThoughts()">
+
+</app-load-more>
 <!-- ng-template não é renderizado por padrão, precisa ser instruido a aparecer, no caso, na linha 6 -->
 <ng-template #noThoughts>
   <div class="ff-inter sem-pensamentos">

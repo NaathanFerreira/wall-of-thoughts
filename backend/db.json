@@ -2,7 +2,7 @@
   "thoughts": [
     {
       "id": 1,
-      "content": "Editando",
+      "content": "Pensando",
       "author": "Nathan",
       "model": "model2"
     },
@@ -23,6 +23,24 @@
       "author": "Nath",
       "model": "model1",
       "id": 4
+    },
+    {
+      "content": "Novo pensamento",
+      "author": "nathan2",
+      "model": "model3",
+      "id": 5
+    },
+    {
+      "content": "Novo pensamento3",
+      "author": "nathan",
+      "model": "model2",
+      "id": 6
+    },
+    {
+      "content": "Novo pensamento4",
+      "author": "nathanb",
+      "model": "model1",
+      "id": 7
     }
   ]
 }

@@ -37,7 +37,6 @@ export class CreateThoughtComponent implements OnInit {
   }
 
   createThought() {
-    console.log(this.form.get('author')?.errors);
     if (this.form.valid) {
       this.thoughtService.create(this.form.value).subscribe(() => {
         this.router.navigate(['/listThoughts']);
