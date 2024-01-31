@@ -4,43 +4,78 @@
       "id": 1,
       "content": "Pensando",
       "author": "Nathan",
+      "bookmarked": true,
       "model": "model2"
     },
     {
       "id": 2,
       "content": "Estudando Angular",
       "author": "Nathan",
+      "bookmarked": true,
       "model": "model1"
     },
     {
       "id": 3,
       "content": "Angular é o melhor'",
       "author": "Dev Alura",
+      "bookmarked": true,
       "model": "model3"
     },
     {
       "content": "Novo pensamento",
       "author": "Nath",
+      "bookmarked": false,
       "model": "model1",
       "id": 4
     },
     {
       "content": "Novo pensamento",
       "author": "nathan2",
+      "bookmarked": false,
       "model": "model3",
       "id": 5
     },
     {
       "content": "Novo pensamento3",
       "author": "nathan",
+      "bookmarked": false,
       "model": "model2",
       "id": 6
     },
     {
       "content": "Novo pensamento4",
       "author": "nathanb",
+      "bookmarked": false,
       "model": "model1",
       "id": 7
+    },
+    {
+      "content": "novo",
+      "author": "nathan",
+      "model": "model1",
+      "bookmarked": false,
+      "id": 8
+    },
+    {
+      "content": "novo 2",
+      "author": "nathan",
+      "model": "model1",
+      "bookmarked": false,
+      "id": 9
+    },
+    {
+      "content": "novo 3",
+      "author": "nathan",
+      "model": "model1",
+      "bookmarked": false,
+      "id": 10
+    },
+    {
+      "content": "novo 4",
+      "author": "nathan",
+      "model": "model1",
+      "bookmarked": false,
+      "id": 11
     }
   ]
 }

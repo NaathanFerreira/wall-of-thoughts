@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { IThought } from '../thought';
+import { ThoughtService } from '../thought.service';
 
 @Component({
   selector: 'app-thought-card',
@@ -12,11 +13,13 @@ export class ThoughtCardComponent implements OnInit {
     id: 0,
     content: '',
     author: '',
-    model: ''
+    model: '',
+    bookmarked: false
   }
 
+  @Input() bookmarkedList: IThought[] = []
 
-  constructor() { }
+  constructor(private thoughtService: ThoughtService) { }
 
   ngOnInit(): void {
   }
@@ -28,4 +31,14 @@ export class ThoughtCardComponent implements OnInit {
     return 'pensamento-p'
   }
 
+  changeBookmarkIcon():string {
+    if(this.thought.bookmarked) return 'ativo'
+    return 'inativo'
+  }
+
+  updateBookmark() {
+    this.thoughtService.changeBookmark(this.thought).subscribe(() => {
+      this.bookmarkedList.splice(this.bookmarkedList.indexOf(this.thought), 1)
+    })
+  }
 }

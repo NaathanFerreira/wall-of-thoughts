@@ -14,8 +14,10 @@ export class DeleteThoughtComponent implements OnInit {
     id: 0,
     content: '',
     author: '',
-    model: ''
+    model: '',
+    bookmarked: false
   }
+
   constructor(private thoughtService: ThoughtService, private router: Router, private route: ActivatedRoute) { }
 
   ngOnInit(): void {

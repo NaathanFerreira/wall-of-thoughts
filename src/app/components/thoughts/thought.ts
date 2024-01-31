@@ -3,4 +3,5 @@ export interface IThought {
   content: string
   author: string
   model: string
+  bookmarked: boolean
 }

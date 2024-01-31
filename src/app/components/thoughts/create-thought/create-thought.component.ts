@@ -33,6 +33,7 @@ export class CreateThoughtComponent implements OnInit {
         Validators.compose([Validators.required, Validators.minLength(3)]),
       ],
       model: ['model1'],
+      bookmarked: [false]
     });
   }
 

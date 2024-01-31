@@ -38,6 +38,7 @@ export class EditThoughtComponent implements OnInit {
           Validators.compose([Validators.required, Validators.minLength(3)]),
         ],
         model: [thought.model],
+        bookmarked: [thought.bookmarked]
       });
     });
   }
